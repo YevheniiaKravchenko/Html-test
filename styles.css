@@ -1,0 +1,14 @@
+.wrapper {
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.position {
+    font-weight: bold
+}
+.name {
+    font-style: italic
+}
+
+.capital {
+    text-transform: uppercase;
+}
