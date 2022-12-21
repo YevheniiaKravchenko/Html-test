@@ -12,3 +12,19 @@
 .capital {
     text-transform: uppercase;
 }
+
+.link {
+    color: #00f;
+}
+
+.link:visited {
+    color: #005;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.items {
+    list-style-type: square;
+}
