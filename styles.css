@@ -6,20 +6,20 @@
 .photo{
     border-width: 2px;
     border-style: groove;
-    border-color: aquamarine;
+    border-color: rgb(150, 173, 241);
     padding: 10px;
 }
 
 .table {
-    background-color: rgb(212, 239, 231);
+    background-color: rgb(215, 221, 240);
 }
 .name {
     border-bottom-style: groove;
-    border-color: aquamarine;
+    border-color: rgb(150, 173, 241);
 }
 .position {
     border-bottom-style: groove;
-    border-color:rgb(158, 244, 215);
+    border-color:rgb(150, 173, 241);
     font-weight: bold
 }
 .name {
@@ -27,7 +27,7 @@
 }
 
 .capital {
-    background-color: rgb(94, 243, 193);
+    background-color: rgb(177, 195, 247);
     text-transform: uppercase;
 }
 
@@ -46,15 +46,15 @@
 .items {
     list-style-type: square;
     border-bottom-style: groove;
-    border-color: aquamarine;
+    border-color: rgb(150, 173, 241);
 }
 
 .education {
     border-bottom-style: groove;
-    border-color:aquamarine; 
+    border-color:rgb(150, 173, 241); 
 }
 
 .achievements {
     border-bottom-style: groove;
-    border-color:aquamarine;
+    border-color: rgb(150, 173, 241)
 }
