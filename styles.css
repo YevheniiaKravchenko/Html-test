@@ -34,6 +34,8 @@
     padding-left: 40px;
     padding-bottom: 10px;
   }
+
+ 
   .cvv-photo {
     width: 300px;
     height: 292px;
@@ -91,9 +93,9 @@
 
  .modal2{
   position:absolute;
-  padding-top: 58px;
-    padding-right: 350px;
-    padding-left: 320px;
+  top: 0;
+  right: 350px;
+  left: 280px;
  }
  .body-text {
   font-size: 13px;
