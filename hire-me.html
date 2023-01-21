@@ -6,10 +6,14 @@
 </head>
 
 <body>
+
+<div class="wrapper">
+
     <h1>Hire me</h1>
+
     <h3>Contact information</h3>
 
-    <table border="1" cellspacing="0" cellpadding="10px">
+    <table border="1" cellspacing="0" cellpadding="10px" class="table">
         <thread>
             <tr>
                 <th>Phone</th>
@@ -24,20 +28,22 @@
 
     <br/>
     
-    <form action="/hire-me.html" method="get">
+    <form action="./hire-me.html" method="get">
             <fieldset>
                 <legend>Contact form</legend>
-                <label for="email">Email:</label>
+                <label for="email">Email:<span class="required-field">*</span></label>
                 <input
                  id="email" 
                  required
                  type="email" 
+                 placeholder="Enter your e-mail"
                  name="email"/>
                 <br/>
     
                 <label for="description">Description:</label> <br/>
                 <textarea
                 id="description"
+                placeholder="Enter the description"
                 name="text">
             </textarea> 
 
@@ -45,7 +51,7 @@
 
         <label>Work type:</label>
             <select name="type">
-            <option></option>
+           
             <option value="full-time">Full-time</option>
             <option value="part-time">Part-time</option>
             <option value="one-time-project">One-time project</option>
@@ -56,5 +62,6 @@
         <input type="submit" value="Hire me">
     </fieldset>
     </form> 
+</div>
 </body>
 </html>
