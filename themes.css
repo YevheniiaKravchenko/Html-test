@@ -1,0 +1,15 @@
+:root {
+    /* colors */
+  --color-left-column: rgba(134, 163, 180, 1);
+  --color-right-column: white;
+  --color-firt-name: white;
+  --color-second-name: rgb(58, 104, 239);
+  --color-font-primary: #1E1E1E;
+  --collor-border: #1E1E1E;
+  
+  /* sizes */
+  --space-left-column: 10px 40px 15px;
+  --space-padding-top: 5px;
+  --space-line-height: 5px;
+  --font-size-primary: 13px;
+  }
