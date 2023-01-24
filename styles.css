@@ -50,7 +50,7 @@ padding: var(--space-left-column);
 
  
 .cvv-photo {
-width: 300px;
+width: 305px;
 height: 292px;
 }
 
@@ -88,8 +88,8 @@ position: absolute;
 background-color: var(--color-right-column);
 padding: var(--space-left-column);
 font-family:Arial, Helvetica, sans-serif;
-right: 350px;
-left: 320px; 
+right: 360px;
+left: 315px; 
  }
 
 
