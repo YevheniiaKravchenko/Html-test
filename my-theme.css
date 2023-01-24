@@ -1,0 +1,15 @@
+.my-theme {
+    /* colors */
+    --color-left-column: #BDBBB6;
+    --color-right-column: #F5E4D7;
+    --color-firt-name: white;
+    --color-second-name: #839788;
+    --color-font-primary: #373535;
+    --collor-border: #373535;
+    
+    /* sizes */
+    --space-left-column: 10px 40px 15px;
+    --space-padding-top: 5px;
+    --space-line-height: 5px;
+    --font-size-primary: 13px;
+    }

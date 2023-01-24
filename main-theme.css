@@ -1,5 +1,5 @@
-:root {
-    /* colors */
+.main-theme {
+  /* colors */
   --color-left-column: rgba(134, 163, 180, 1);
   --color-right-column: white;
   --color-firt-name: white;
@@ -13,3 +13,4 @@
   --space-line-height: 5px;
   --font-size-primary: 13px;
   }
+  
