@@ -16,19 +16,21 @@
 
 .grid-container {
 display: grid;
-grid-template-columns: 300px 815px;
-grid-template-rows: auto;
+grid-template-columns: .7fr 3fr;
+grid-template-rows: 1fr;
+grid-template-areas: 
+"grid-item-1"
+"grid-item-2";
+gap: .3rem;
 }
   
 .grid-item-1 {
 display:block;
 background-color: var(--color-left-column);
 font-family:Arial, Helvetica, sans-serif;
+grid-template-areas: grid-item-1;
 }
 
-.modal {
-position:fixed;
-}
 
 
 .name {
@@ -50,8 +52,7 @@ padding: var(--space-left-column);
 
  
 .cvv-photo {
-width: 305px;
-height: 292px;
+max-width: 100%;
 }
 
 .contact-info {
@@ -84,10 +85,10 @@ font-weight: normal;
 }
 
 .grid-item-2 {
-position: absolute;
 background-color: var(--color-right-column);
 padding: var(--space-left-column);
 font-family:Arial, Helvetica, sans-serif;
+grid-template-areas: grid-item-2;
 right: 360px;
 left: 315px; 
  }
@@ -112,7 +113,19 @@ font-weight: bold;
 font-size: var(--font-size-primary);
 }
 
- 
+ @media screen and (max-width: 450px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: .4fr .4fr;
+    grid-template-areas: 
+    "grid-item-1"
+    "grid-item-2"
+    ;
+  }
+
+ }
+  
+
 
 
  
