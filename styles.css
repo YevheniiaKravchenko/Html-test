@@ -21,7 +21,7 @@ grid-template-rows: 1fr;
 grid-template-areas: 
 "grid-item-1"
 "grid-item-2";
-gap: .3rem;
+gap: .5rem;
 }
   
 .grid-item-1 {
@@ -29,6 +29,7 @@ display:block;
 background-color: var(--color-left-column);
 font-family:Arial, Helvetica, sans-serif;
 grid-template-areas: grid-item-1;
+box-shadow: 5px 2px 0.4em grey;
 }
 
 
@@ -53,6 +54,11 @@ padding: var(--space-left-column);
  
 .cvv-photo {
 max-width: 100%;
+}
+
+.cvv-photo:hover {
+  transform: scale(1.5);
+  box-shadow: 3px 3px 3px grey;
 }
 
 .contact-info {
@@ -104,6 +110,14 @@ display: flex;
 flex-direction: row;
 }
  
+.text-opacity {
+  opacity: .7;
+}
+
+.text-opacity:hover {
+  opacity: 100;
+
+}
 .main-text {
 font-size: var(--font-size-primary);
 }
