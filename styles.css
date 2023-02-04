@@ -30,7 +30,9 @@ background-color: var(--color-left-column);
 font-family:Arial, Helvetica, sans-serif;
 grid-template-areas: grid-item-1;
 box-shadow: 5px 2px 0.4em grey;
+
 }
+
 
 
 
@@ -54,11 +56,15 @@ padding: var(--space-left-column);
  
 .cvv-photo {
 max-width: 100%;
+transition: 2s;
+position: relative;
+z-index: 2;
 }
 
 .cvv-photo:hover {
   transform: scale(1.5);
   box-shadow: 3px 3px 3px grey;
+
 }
 
 .contact-info {
@@ -110,14 +116,18 @@ display: flex;
 flex-direction: row;
 }
  
+
+
 .text-opacity {
-  opacity: .7;
+  opacity: .5;
 }
 
 .text-opacity:hover {
   opacity: 100;
+  transition-duration: 4s;
 
 }
+
 .main-text {
 font-size: var(--font-size-primary);
 }
