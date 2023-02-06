@@ -30,7 +30,19 @@ background-color: var(--color-left-column);
 font-family:Arial, Helvetica, sans-serif;
 grid-template-areas: grid-item-1;
 box-shadow: 5px 2px 0.4em grey;
+animation: block1 3s ease-out;
 
+}
+
+@keyframes block1 {
+ from {
+  transform: translateY(100%);
+  opacity: 0%;
+ }
+ to {
+  transform: translateY(0%);
+  opacity: 100%;
+ }
 }
 
 
@@ -103,7 +115,18 @@ font-family:Arial, Helvetica, sans-serif;
 grid-template-areas: grid-item-2;
 right: 360px;
 left: 315px; 
- }
+z-index: 1;
+animation: block2 3s ease-out 0.5s;
+}
+
+@keyframes block2 {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
 
 
 .body-text {
