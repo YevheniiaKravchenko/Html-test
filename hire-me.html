@@ -2,55 +2,53 @@
 <html>
 <head>
     <title>Contact info</title>
-   <link href="./styles-hire-me.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-blue-200 text-gray-700">
 
-<div class="wrapper">
+<div class="container mx-auto py-10">
 
-    <h1>Hire me</h1>
+    <h1 class="text-4xl font-bold text-center">Hire me</h1>
 
-    <h3>Contact information</h3>
+    <h3 class="text-2xl font-medium text-center">Contact information</h3>
 
-    <table border="1" cellspacing="0" cellpadding="10px" class="table">
+    <table class="table border border-gray-400 mx-auto my-10">
         <thread>
-            <tr>
-                <th>Phone</th>
-                <td>+380954160215</td>
+            <tr class="border-b border-gray-400">
+                <th class="py-2 px-4">Phone</th>
+                <td class="py-2 px-4">+380954160215</td>
             </tr>
-            <tr>
-                <th>Address</th>
-                <td>Kyiv, Ukraine</td>
+            <tr class="border-b border-gray-400">
+                <th class="py-2 px-4">Address</th>
+                <td class="py-2 px-4">Kyiv, Ukraine</td>
             </tr>
         </thread>
-    </table>
-
-    <br/>
-    
-    <form action="./hire-me.html" method="get">
-            <fieldset class="form1">
-                <legend> Contact form</legend>
-                <label for="email">Email:<span class="required-field">*</span></label>
+    </table> 
+    <form action="./hire-me.html" method="get" class="mx-auto max-w-sm">
+            <fieldset class="bg-white p-10 rounded">
+                <legend class="text-lg font-bold">Contact form</legend>
+                <label for="email" class="block mb-2 text-sm font-medium">Email:<span class="text-red-500">*</span></label>
                 <input
                  id="email" 
                  required
                  type="email" 
                  placeholder="Enter your e-mail"
-                 name="email"/>
-                <br/>
+                 name="email"
+                 class="w-full p-2 border border-gray-400"/>
+                 <br />
     
-                <label for="description">Description:</label> <br/>
+                <label for="description" class="block text-sm font-medium">Description:</label> 
                 <textarea
                 id="description"
                 placeholder="Enter the description"
-                name="text">
-            </textarea> 
+                name="text"
+                class="w-full p-2 border border-gray-400"></textarea> 
 
         <br/>
 
-        <label>Work type:</label>
-            <select name="type">
+        <label class="block mb-2 text-sm font-medium">Work type:</label>
+            <select name="type" class="p-2 border border-gray-400">
            
             <option value="full-time">Full-time</option>
             <option value="part-time">Part-time</option>
@@ -59,7 +57,7 @@
 
         <br/>
 
-        <input type="submit" value="Hire me">
+        <input type="submit" value="Hire me" class="py-2 px-4 bg-indigo-500 text-white rounded hover:bg-indigo-600">
     </fieldset>
     </form> 
 </div>
